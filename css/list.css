@@ -1,0 +1,135 @@
+.main_body__section{
+    background-color: #626262 !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    min-height: 2000px;
+}
+
+.list1{
+    width: 80%;
+    height: 300px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.list1_text_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.list1:hover{
+    background-color: #17bed2;
+}
+
+.list1:hover h3{
+    color: #fff;
+}
+
+.list1:hover p{
+    color: #fff;
+}
+
+.list1:target{
+    height: 500px;
+}
+
+h3{
+    color: #484e5e;
+}
+
+p{
+    color: #333333;
+    font-size: 18px !important;
+}
+
+.list2{
+    width: 80%;
+    height: 300px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+}
+
+.avatar_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list2_text_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.list2:hover{
+    background-color: #17bed2;
+}
+
+.list2:hover h3{
+    color: #fff;
+}
+
+.list2:hover p{
+    color: #fff;
+}
+
+.list3{
+    width: 80%;
+    height: 300px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.list3_text_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.list3:hover h3{
+    color: #fff;
+}
+
+.list3:hover p{
+    color: #fff;
+}
+
+.list3:hover{
+    background-color: #17bed2;
+}
+
+
+#box{
+    width: 80%;
+    min-height: 500px;
+    background-color: #e8e8e8;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
